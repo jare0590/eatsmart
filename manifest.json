@@ -1,0 +1,32 @@
+{
+	"name": "EATsmart",
+	"short_name": "EATsmart",
+    "description": "Empresa especializada en nutrición deportiva y clínica.",
+	"icons": [{
+		"src": "img/favicon/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+    }, {
+        "src": "img/favicon/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "img/favicon/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "img/favicon/apple-touch-icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+    }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#6A8BED",
+    "theme_color": "#6A8BED",
+    "serviceworker": {
+        "src": "service-worker.js",
+        "scope": "/",
+        "update_via_cache": "none"
+    }
+}

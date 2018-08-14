@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "EATsmart",
+  "start_url": "/index.html",
+  "description": "Empresa especializada en nutrición deportiva y clínica.",
+  "icons": {
+    "128": "/img/favicon/apple-touch-icon-120x120.png"
+  },
+  "developer": {
+    "name": "jare0590@gmail.com",
+    "url": "https://www.linkedin.com/in/jose-antonio-rodriguez-elias-a9412a80/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "es",
+  "locales": {
+    "en": {
+      "name": "EATsmart",
+      "description": "A friendly web to visualize the differents nutrition plans and the team of athletes."
+    }
+    "es": {
+      "name": "EATsmart",
+      "description": "Empresa especializada en nutrición deportiva y clínica."
+    } 
+  },
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#6A8BED",
+  "theme_color": "#6A8BED",
+  "serviceworker": {
+    "src": "service-worker.js",
+    "scope": "/",
+    "update_via_cache": "none"
+  }
+}
